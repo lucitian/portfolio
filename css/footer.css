@@ -1,0 +1,39 @@
+footer {
+    height: 15em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.footer_container {
+    width: auto;
+    justify-items: center;
+    text-align: center;
+}
+
+.footer_socials {
+    width: auto;
+}
+
+
+.footer_socials i {
+    margin: 0.5em;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.footer_container .divider {
+    background-color: white;
+    height: 1px;
+    width: 22em;
+}
+
+.footer_info {
+    margin: 3em 0 0 0;
+}
+
+.footer_info i, .footer_info p {
+    color: #fff;
+}

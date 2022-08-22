@@ -1,0 +1,222 @@
+/* Section Home Pane */
+.home_pane {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3E4E0;
+}
+
+.home_content {
+    margin: -5.5em 0 0 0;
+}
+
+.home_content h1 {
+    font-family: 'Montserrat', monospace;
+    font-size: 5em;
+    text-align: center;
+    margin: 0.25em 0;
+}
+
+.home_info {
+    margin: 0.25em 0;
+}
+
+.home_info p {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.home_scroll {
+    position: absolute;
+    bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_scroll h3 {
+    opacity: 75%;
+}
+
+.scroll-down-btn {
+    width: 1.56em; height: 1.56em;
+    box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+    transform: rotate(-45deg) !important;
+    animation: scroll_down 4s infinite;
+}
+
+@keyframes scroll_down {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+/* Section About pane*/
+.about_pane {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AF9F8C;
+}
+
+.about_content {
+    margin: 4em 0 0 0;
+    width: 60%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header {
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.divider {
+    height: 0.5em; width: 10em;
+    align-self: center;
+    margin: 20px 0 0 0;
+    background-color: #000;
+}
+
+.about_self_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about_self {
+    padding: 2.5em 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_self p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about_self_content h1{
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+.about_skills {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    gap: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.skills_card {
+    border-radius: 0.3125em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    padding: 3em 0 3em 0;
+    background-color: #EADAD0;
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
+}
+
+.skills_card i, .skills_card h3, .skills_card ul, .skills_card li {
+    text-align: center;
+    align-self: center;
+}
+
+.skills_card i {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 3em;
+}
+
+.skills_card h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.skills_card ul li {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+/* Section Project Pane */
+.project_pane {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0E4D8;
+    padding: 7em 0 10em 0;
+}
+
+.project_content {
+    margin: 4em 0 0 0;
+    width: 60%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_some {
+    padding: 2.5em 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_some p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill(1fr));
+    gap: 1.5em;
+    width: 50%;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    border-radius: 0.3125em;
+    width: auto;
+    height: auto;
+    padding: 2em 1em;
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
+    background-color: #EFEDE7;
+    text-decoration: none;
+    color: #000;
+}
+
+.project_title, .project_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project_title p {
+    font-size: 1em;
+    font-style: italic;
+    opacity: 0.5;
+}

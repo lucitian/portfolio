@@ -1,0 +1,673 @@
+@media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (min-device-height: 720px)
+    and (max-device-height: 1080px) { 
+    /* header */
+    .navbar {
+        height: 4.75em;
+        padding: 0 10em;
+    }
+
+    .header_logo span {
+        font-size: 1.1em;
+    }
+
+    .logo img {
+        width: 3em; height: 3em;
+        border-radius: 3em;
+    }
+
+    .navbar ul {
+        width: 20em;
+    }
+
+    .navbar ul li {
+        font-size: 1.1em;
+    }
+
+    /* Section Home Pane */
+    .home_content h1 {
+        font-size: 4em;
+    }
+
+    .home_info p {
+        font-size: 1.2em;
+    }
+
+    .home_scroll h3 {
+        font-size: 1.1em;
+    }
+
+    .scroll-down-btn {
+        width: 1.2em; height: 1.2em;
+    }
+
+    /* Section About Pane */
+    .about_content {
+        margin: 2em 0 0 0;
+        width: 70%;
+    }
+
+    #header {
+        font-size: 1.7em;
+    }
+
+    .about_self {
+        padding: 1.7em 7.5em;
+    }
+
+    .about_self p {
+        font-size: 16px;
+    }
+
+    .about_self_content h1{
+        font-size: 1.7em;
+    }
+
+    .about_skills {
+        height: 92%;
+    }
+
+    .skills_card {
+        padding: 3em 0 3em 0;
+    }
+
+    .skills_card i {
+        margin: 0.5em 0 0.5em 0;
+        font-size: 2em;
+    }
+
+    .skills_card h3 {
+        font-size: 1.1em;
+    }
+
+    .skills_card ul li {
+        font-size: 0.9em;
+    }
+
+    /* Section Project Pane */
+    .project_pane {
+        padding: 7em 0 10em 0;
+    }
+
+    .project_content {
+        margin: 1.2em 0 0 0;
+        width: 75%;
+    }
+
+    .project_some {
+        padding: 1.4em 10em 1.8em 10em;
+    }
+
+    .project_some p {
+        font-size: 16px;
+    }
+
+    .projects {
+        gap: 1em;
+        width: 55%;
+    }
+
+    .project {
+        padding: 1.5em 1em;
+    }
+
+    .project_title h3 {
+        font-size: 1em;
+    }
+
+    .project_title p {
+        font-size: 0.8em;
+        font-style: italic;
+        opacity: 0.5;
+    }
+
+    .project_info p {
+        font-size: 0.9em;
+    }
+
+    /* Footer Section */
+    footer {
+        height: 13em;
+    }
+
+    .footer_info p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1280px) 
+    and (min-device-height: 600px)
+    and (max-device-height: 892px) {
+        /* header */
+    .navbar {
+        height: 4.75em;
+        padding: 0 10em;
+    }
+
+    .header_logo span {
+        font-size: 1.1em;
+    }
+
+    .logo img {
+        width: 3em; height: 3em;
+        border-radius: 3em;
+    }
+
+    .navbar ul {
+        width: 20em;
+    }
+
+    .navbar ul li {
+        font-size: 1.1em;
+    }
+
+    /* Section Home Pane */
+    .home_content h1 {
+        font-size: 3.5em;
+    }
+
+    .home_info p {
+        font-size: 1em;
+    }
+
+    .home_scroll h3 {
+        font-size: 1em;
+    }
+
+    .scroll-down-btn {
+        width: 1em; height: 1em;
+    }
+
+    /* Section About Pane */
+    .about_pane {
+        height: auto;
+        padding: 5.5em 0;
+    }
+
+    .about_content {
+        margin: 2em 0 0 0;
+        width: 70%;
+    }
+
+    #header {
+        font-size: 1.6em;
+    }
+
+    .about_self {
+        padding: 1.2em 7.5em;
+    }
+
+    .about_self p {
+        font-size: 14px;
+    }
+
+    .about_self_content h1{
+        font-size: 1.6em;
+    }
+
+    .about_skills {
+        height: 100%;
+    }
+
+    .skills_card {
+        padding: 2em 0 2em 0;
+    }
+
+    .skills_card i {
+        margin: 0 0 0.5em 0;
+        font-size: 1.7em;
+    }
+
+    .skills_card h3 {
+        font-size: 0.9em;
+    }
+
+    .skills_card ul li {
+        font-size: 0.8em;
+    }
+
+    /* Section Project Pane */
+    .project_pane {
+        padding: 4.5em 0 10em 0;
+    }
+
+    .project_content {
+        margin: 1.2em 0 0 0;
+        width: 75%;
+    }
+
+    .project_some {
+        padding: 1.4em 10em 1.8em 10em;
+    }
+
+    .project_some p {
+        font-size: 14px;
+    }
+
+    .projects {
+        gap: 1em;
+        width: 55%;
+    }
+
+    .project {
+        padding: 1em 1em;
+    }
+
+    .project_title h3 {
+        font-size: 0.9em;
+    }
+
+    .project_title p {
+        font-size: 0.7em;
+    }
+
+    .project_info p {
+        font-size: 0.75em;
+    }
+
+    /* Footer Section */
+    footer {
+        height: 10em;
+    }
+
+    .footer_info {
+        margin: 1.5em 0 0 0;
+    }
+
+    .footer_info p {
+        font-size: 0.6em;
+    }
+
+    .footer_container .divider {
+        margin: 0.5em;
+    }
+}
+
+@media screen 
+    and (min-device-width: 360px)
+    and (max-device-width: 812px) 
+    and (max-device-height: 915px) {
+        /* header */
+    .navbar {
+        height: 4.75em;
+        padding: 0 0em;
+    }
+
+    .header_logo {
+        padding: 0;
+    }
+
+    .header_logo span {
+        font-size: 1.1em;
+    }
+
+    .logo img {
+        width: 3em; height: 3em;
+        border-radius: 3em;
+    }
+
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 4.75em;
+        right: -100%;
+        display: block;
+        text-align: center;
+        background-color: #7F867B;
+        transition: all .5s;
+    }
+
+    .navbar ul li {
+        margin: 2em 0;
+        font-size: 1.5em;
+    }
+
+    .bars_button {
+        display: flex;
+        align-items: center;
+        padding: 0 1em;
+        font-size: 1.5em;
+    }
+
+    .bars:checked ~ .navbar_list {
+        right: 0;
+    }
+
+    /* Section Home Pane */
+    section {
+        padding: 0 0.5em;
+    }
+
+    .home_content h1 {
+        font-size: 2em;
+    }
+
+    .home_info p {
+        font-size: 0.85em;
+    }
+
+    .home_scroll h3 {
+        font-size: 0.85em;
+    }
+
+    .scroll-down-btn {
+        width: 1em; height: 1em;
+    }
+
+    /* Section About Pane */
+    .about_pane {
+        height: auto;
+        padding: 5.5em 0 5.5em 0;
+    }
+
+    .about_content {
+        margin: 2em 0 0 0;
+        width: 70%;
+    }
+
+    #header {
+        font-size: 1.4em;
+    }
+
+    .about_self {
+        padding: 1.2em 0;
+    }
+
+    .about_self p {
+        font-size: 12px;
+    }
+
+    .about_self_content h1{
+        font-size: 1.4em;
+    }
+
+    .about_skills {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        gap: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
+    .skills_card {
+        padding: 2em 0 2em 0;
+    }
+
+    .skills_card i {
+        margin: 0 0 0.5em 0;
+        font-size: 1.7em;
+    }
+
+    .skills_card h3 {
+        font-size: 0.9em;
+    }
+
+    .skills_card ul li {
+        font-size: 0.8em;
+    }
+
+    /* Section Project Pane */
+    .project_pane {
+        padding: 4.5em 0 5.5em 0;
+    }
+
+    .project_content {
+        margin: 1.2em 0 0 0;
+        width: 75%;
+    }
+
+    .project_some {
+        padding: 1.4em 0 1.8em 0;
+    }
+
+    .project_some p {
+        font-size: 12px;
+    }
+
+    .projects {
+        gap: 1em;
+        width: 100%;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        gap: 10px;
+        border-radius: 0.3125em;
+        width: auto;
+        height: auto;
+        padding: 1em 1em;
+        box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
+        background-color: #EFEDE7;
+    }
+
+    .project_title h3 {
+        font-size: 0.9em;
+    }
+
+    .project_title p {
+        font-size: 0.7em;
+    }
+
+    .project_info p {
+        font-size: 0.75em;
+    }
+
+    /* Footer Section */
+    footer {
+        height: 10em;
+    }
+
+    .footer_info {
+        margin: 1.5em 0 0 0;
+    }
+
+    .footer_info p {
+        font-size: 0.6em;
+    }
+
+    .footer_container .divider {
+        margin: 0.5em;
+    }
+}
+
+
+@media screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 820px) 
+    and (max-device-height: 1180px) {
+    /* header */
+    .navbar {
+        height: 4.75em;
+        padding: 0 1em;
+    }
+
+    .header_logo {
+        padding: 0;
+    }
+
+    .header_logo span {
+        font-size: 1.1em;
+    }
+
+    .logo img {
+        width: 3em; height: 3em;
+        border-radius: 3em;
+    }
+
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 4.75em;
+        right: -100%;
+        display: block;
+        text-align: center;
+        background-color: #7F867B;
+        transition: all .5s;
+    }
+
+    .navbar ul li {
+        margin: 2em 0;
+        font-size: 1.5em;
+    }
+
+    .bars_button {
+        display: flex;
+        align-items: center;
+        padding: 0 1em;
+        font-size: 1.5em;
+    }
+
+    .bars:checked ~ .navbar_list {
+        right: 0;
+    }
+
+    /* Section Home Pane */
+    section {
+        padding: 0 1em;
+    }
+
+    .home_content h1 {
+        font-size: 3em;
+    }
+
+    .home_info p {
+        font-size: 1.2em;
+    }
+
+    .home_scroll h3 {
+        font-size: 1.2em;
+    }
+
+    .scroll-down-btn {
+        width: 1.2em; height: 1.2em;
+    }
+
+    /* Section About Pane */
+    .about_pane {
+        height: auto;
+        padding: 5.5em 0 5.5em 0;
+    }
+
+    .about_content {
+        margin: 2em 0 0 0;
+        width: 70%;
+    }
+
+    #header {
+        font-size: 1.8em;
+    }
+
+    .about_self {
+        padding: 1.2em 0;
+    }
+
+    .about_self p {
+        font-size: 16px;
+    }
+
+    .about_self_content h1{
+        font-size: 1.8em;
+    }
+
+    .about_skills {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        gap: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
+    .skills_card {
+        padding: 2em 0 2em 0;
+    }
+
+    .skills_card i {
+        margin: 0 0 0.5em 0;
+        font-size: 2.5em;
+    }
+
+    .skills_card h3 {
+        font-size: 1.2em;
+    }
+
+    .skills_card ul li {
+        font-size: 1em;
+    }
+
+    /* Section Project Pane */
+    .project_pane {
+        padding: 3em 0 5.5em 0;
+    }
+
+    .project_content {
+        margin: 1.2em 0 0 0;
+        width: 75%;
+    }
+
+    .project_some {
+        padding: 1.4em 0 1.8em 0;
+    }
+
+    .project_some p {
+        font-size: 16px;
+    }
+
+    .projects {
+        gap: 1em;
+        width: 100%;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        gap: 10px;
+        border-radius: 0.3125em;
+        width: auto;
+        height: auto;
+        padding: 1em 1em;
+        box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
+        background-color: #EFEDE7;
+    }
+
+    .project_title h3 {
+        font-size: 1.2em;
+    }
+
+    .project_title p {
+        font-size: 0.9em;
+    }
+
+    .project_info p {
+        font-size: 1em;
+    }
+
+    /* Footer Section */
+    footer {
+        height: 10em;
+    }
+
+    .footer_info {
+        margin: 1.5em 0 0 0;
+    }
+
+    .footer_info p {
+        font-size: 0.6em;
+    }
+
+    .footer_container .divider {
+        margin: 0.5em;
+    }
+}

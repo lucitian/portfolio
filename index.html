@@ -2,12 +2,160 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/body.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/media.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/052f0d8aba.js" crossorigin="anonymous"></script>
         <title>Luci Portfolio</title>
     </head>
     <body>
-        <main>
-            <h1>Hello world!</h1>
-        </main>
+        <header>
+            <div class="navbar">
+                <div class="header_logo">
+                    <div class="logo">
+                        <img src="./assets/ICON.png">
+                    </div>
+                    <span>Christian Olandesca</span>
+                </div>
+                <div class="navbar_content">
+                    <input type="checkbox" id="bars" class="bars">
+                    <label for="bars" class="bars_button"><i class="fas fa-bars"></i></label>
+                    <ul class="navbar_list">
+                        <li class="navbar_options">Home</li>
+                        <li class="navbar_options">About</li>
+                        <li class="navbar_options">Projects</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </header>
+        <section id="home" class="home_pane">
+            <div class="home_content">
+                <h1>Hi, I'm Christian!</h1>
+                <div class="home_info">
+                    <p>I am a fresh grad developer focusing on building Websites and Web Applications, or software applications.</p>
+                </div>
+            </div>
+            <div class="home_scroll">
+                <h3>SCROLL DOWN</h3>
+                <div class="scroll-down-btn"></div>
+            </div>
+        </section>
+        <section id="about" class="about_pane">
+            <div class="about_content">
+                <h1 id="header">About me</h1>
+                <div class="about_self_content">
+                    <div class="about_self">
+                        <p>
+                            Major in Computer Science while specializing in frontend, backend, and database. 
+                            During my stay in the university, I focused on developing frontend and application development for the team, 
+                            while also practicing artificial intelligence, natural language processing, and modelling and simulation.
+                            I have a good grasp on the basics of HyperText Markup Language (HTML), Cascading Stylesheet (CSS), JavaScript (JS), Python, 
+                            because of participating in different projects involving application development, simulation, and modelling. 
+                        </p>
+                    </div>
+                    <h1>Technical Skills</h1>
+                    <div class="about_skills">
+                        <div class="skills_card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Programming Languages</h3>
+                            <ul>
+                                <li>C</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                        <div class="skills_card">
+                            <i class="fas fa-book"></i>
+                            <h3>Frameworks/Libary</h3>
+                            <ul>
+                                <li>NodeJS</li>
+                                <li>ReactJS</li>
+                                <li>ElectronJS</li>
+                                <li>React Native</li>
+                                <li>jQuery</li>
+                                <li>Django</li>
+                                <li>Flask</li>
+                            </ul>
+                        </div>
+                        <div class="skills_card">
+                            <i class="fas fa-terminal"></i>
+                            <h3>Developer Tools</h3>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Github</li>
+                            </ul>
+                        </div>
+                        <div class="skills_card">
+                            <i class="fas fa-database"></i>
+                            <h3>Databases</h3>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>SQL Server</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="project_pane">
+            <div class="project_content">
+                <h1 id="header">Projects</h1>
+                <div class="project_some"><p>Here are the projects that I've worked with my team.</p></div>
+                <div class="projects">
+                    <a href="https://github.com/lucitian/Thesis-CTFR" target="_blank" class="project">
+                        <div class="project_title">
+                            <h3>Contact Tracing using Facial Recognition (CTFR)</h3>
+                            <p>10/2021 - 06/2022</p>
+                        </div>
+                        <div class="project_info"><p>
+                            A thesis that focuses on contact tracing using facial recognition by applying convolutional neural network. 
+                            I was assigned to manage and develop the front-end function of both desktop and mobile application, 
+                            while also handling the back end for the server side.
+                        </p></div>
+                    </a>
+                    <a href="https://github.com/lucitian/Rovot" target="_blank" class="project">
+                        <div class="project_title">
+                            <h3>RoVoT</h3>
+                            <p>05/2021 - 06/2021</p>
+                        </div>
+                        <div class="project_info"><p>
+                            A movie recommendation chatbot using Natural Language Processing for analyzing and understanding the user's message, 
+                            and Sentiment Analysis and Machine Learning for training the chatbot to comprehend and predict the sentiment of the user 
+                            to recommend movies based on the user's behavior. 
+                        </p></div>
+                    </a>
+                    <a href="https://github.com/lucitian/shoptronics" target="_blank" class="project">
+                        <div class="project_title">
+                            <h3>SHOPTRONICS</h3>
+                            <p>01/2021</p>
+                        </div>
+                        <div class="project_info"><p>
+                            An E-Commerce Website prototype for gaming platforms and video games using ReactJS, HTML, and CSS which served as a project for Web Development subject.
+                        </p></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_container">
+                <div class="footer_socials">
+                    <a href="https://www.linkedin.com/in/christian-olandesca/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/lucitian" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+                <div class="divider"></div>
+                <div class="footer_info">
+                    <p> <i class="fa fa-copyright"></i> Copyright 2022. Made by Christian Olandesca</p>
+                </div>
+            </div>
+        </footer>
+        <script src='./scripts/script.js' type='text/javascript'></script>
     </body>
 </html>
