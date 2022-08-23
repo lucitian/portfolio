@@ -57,12 +57,13 @@
 
 /* Section About pane*/
 .about_pane {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #AF9F8C;
+    padding: 5em 0 12em 0;
 }
 
 .about_content {
